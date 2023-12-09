@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import HomePage from "./HomePage.tsx";
 import Lab1 from "./lab1.tsx";
 import Lab2 from "./lab2.tsx";
+import Lab3 from "./lab3.tsx";
 
 const Routing: FC = () => {
     const navigation = [
@@ -17,6 +18,10 @@ const Routing: FC = () => {
         {
             path: '/lab2',
             element: <Lab2/>
+        },
+        {
+            path: '/lab3',
+            element: <Lab3/>
         },
 
     ]
